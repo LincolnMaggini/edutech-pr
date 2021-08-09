@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em Contato | Lincoln's Informática</title>
+
+        <link href="reset.css" rel="stylesheet">
+        <link href="entre_em_contato.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <p class="logo-cabecalho">Lincoln's Informática</p>
+            <nav class="navegacao">
+                <ul class="cabecalho-lista">
+                    <li class="cabecalho-lista-links"><a href="index.html">Início</a></li>
+                    <li class="cabecalho-lista-links"><a href="nossos_produtos.html">Nossos Produtos</a></li>
+                    <li class="cabecalho-lista-links"><a  class="active" href="entre_em_contato.html">Entre em Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="conteudo-entre-em-contato">
+
+                <form class="formulario">
+                    <label for="nome-completo">Nome Completo:</label>
+                    <input type="text" id="nome-completo" class="input-padrao" required placeholder="Ex: João dos Santos">
+    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="Ex: seuemail@dominio.com">
+    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="Ex: (XX) XXXXX-XXXX">
+    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea cols="" rows="8" id="mensagem" class="input-padrao" required placeholder="Digite aqui sua mensagem."></textarea>
+
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+
+                <div class="conteudo-atendimento">
+                    <p class="atendimento">Atendimento</p>
+                    <p class="informacoes-de-atendimento">Horário de atendimento: 08:00 às 20:00 de segunda à sábado, horário de Brasília (exceto feriados).</p>
+                    <p class="informacoes-de-atendimento">Endereço: Rua Cardoso Ribeiro, 970 - 2º piso</p>
+                    <p class="informacoes-de-atendimento">Vila Boa Esperança, Ourinhos - (SP) - CEP: 19912-120</p>
+                    <p class="informacoes-de-atendimento">E-mail: faleconosco@lincolnsinformatica.com.br</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="logo-rodape">Lincoln's Informática</p>
+            <p class="copyright">Copyright © 2021 Lincoln's Informática</p>
+        </footer>
+    </body>
+</html>
