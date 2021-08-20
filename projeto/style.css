@@ -91,7 +91,6 @@ body {
 
 }
 
-
 .localizacao-titulo {
     font-size: 1.8em;
     font-weight: bold;
@@ -171,4 +170,103 @@ footer {
     padding: 10px;
     color: white;
     font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-cabecalho {
+        padding: 25px;
+    }
+
+    .cabecalho-lista {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho-lista-links {
+        border: none;
+    }
+
+    .diferenciais {
+        flex-direction: column;
+    }
+
+    .img-fachada{
+        width: 95%;
+    }
+
+    .nossos-diferenciais {
+        width: 95%;
+    }
+
+    .mapa {
+        width: 95vw;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .logo-microsoft {
+        width: 50%;
+    }
+
+    .logo-sony {
+        width: 50%;
+    }
+
+    .logo-hyperx {
+        width: 50%;
+    }
+
+    .logo-razer {
+        width: 50%;
+    }
+
+    .logo-rodape {
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mapa {
+        width: 85vw;
+    }
+
+    .logo-microsoft {
+        width: 20%;
+    }
+
+    .logo-sony {
+        width: 20%;
+    }
+
+    .logo-hyperx {
+        width: 20%;
+    }
+
+    .logo-razer {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mapa {
+        width: 95vw;
+    }
+
+    .logo-microsoft {
+        width: 15%;
+    }
+
+    .logo-sony {
+        width: 15%;
+    }
+
+    .logo-hyperx {
+        width: 15%;
+    }
+
+    .logo-razer {
+        width: 15%;
+    }
 }

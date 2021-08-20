@@ -103,3 +103,30 @@ footer {
     color: white;
     font-size: 0.9em;
 }
+
+@media screen and (max-width: 768px) {
+    .logo-cabecalho {
+        padding: 25px;
+    }
+
+    .cabecalho-lista {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho-lista-links {
+        border: none;
+    }
+
+    .produtos-em-destaque-titulo {
+        padding: 1.5em;
+    }
+
+    .imagens {
+        width: 90vw;
+    }
+
+    .logo-rodape {
+        padding: 25px;
+    }
+}
