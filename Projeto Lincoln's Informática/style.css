@@ -1,0 +1,272 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-cabecalho {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 5em;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.cabecalho-lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.cabecalho-lista-links {
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+.cabecalho-lista-links a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cabecalho-lista-links a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:black;
+}
+
+.sobre-titulo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.img-fachada {
+    width: 50%;
+    margin: 2.5em;
+    box-shadow: 0px 0px 5px 2px #000000;
+}
+
+.missao-loja {
+    text-align: center;
+    font-size: 1.45em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.diferenciais {
+    display: flex;
+    align-items: center;
+}
+
+.nossos-diferenciais {
+    width: 50%;
+    text-align: center;
+}
+
+.nossos-diferenciais-titulo {
+    font-size: 1.45em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.nossos-diferenciais-itens::before {
+    content: "✯";
+    font-weight: bold;
+}
+
+.nossos-diferenciais-itens {
+    font-size: 1.15em;
+    margin-bottom: 0.5em;
+
+}
+
+.localizacao-titulo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.localizacao-texto {
+    font-size: 1.15em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.mapa {
+    width: 940px;
+	margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.nossos-parceiros-titulo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.logo-microsoft {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.logo-sony {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.logo-hyperx {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.logo-razer {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer {
+    background: darkslategray;
+    color: white;
+}
+
+.logo-rodape {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 5em;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 50px;
+    color: black;
+}
+
+.copyright {
+    background-color: #373433;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-cabecalho {
+        padding: 25px;
+    }
+
+    .cabecalho-lista {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho-lista-links {
+        border: none;
+    }
+
+    .diferenciais {
+        flex-direction: column;
+    }
+
+    .img-fachada{
+        width: 95%;
+    }
+
+    .nossos-diferenciais {
+        width: 95%;
+    }
+
+    .mapa {
+        width: 95vw;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .logo-microsoft {
+        width: 50%;
+    }
+
+    .logo-sony {
+        width: 50%;
+    }
+
+    .logo-hyperx {
+        width: 50%;
+    }
+
+    .logo-razer {
+        width: 50%;
+    }
+
+    .logo-rodape {
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mapa {
+        width: 85vw;
+    }
+
+    .logo-microsoft {
+        width: 20%;
+    }
+
+    .logo-sony {
+        width: 20%;
+    }
+
+    .logo-hyperx {
+        width: 20%;
+    }
+
+    .logo-razer {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mapa {
+        width: 95vw;
+    }
+
+    .logo-microsoft {
+        width: 15%;
+    }
+
+    .logo-sony {
+        width: 15%;
+    }
+
+    .logo-hyperx {
+        width: 15%;
+    }
+
+    .logo-razer {
+        width: 15%;
+    }
+}
